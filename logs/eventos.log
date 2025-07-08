@@ -1,0 +1,1899 @@
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+ERROR:root:Error al arrancar contenedores: Command '['lxc', 'start', 's2']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando imagen personalizada
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s3 creado, arrancado y conectado a eth0 con IP 134.3.0.13
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando imagen personalizada
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s2 creado, arrancado y conectado a eth0 con IP 134.3.0.12
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+ERROR:root:Error al arrancar contenedores: Command '['lxc', 'start', 's2']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Servidor s2 arrancado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando imagen personalizada
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s2 creado, arrancado y conectado a eth0 con IP 134.3.0.12
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:s2 está arrancado. Deteniéndolo...
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s3 creado, arrancado y conectado a eth0 con IP 134.3.0.13
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando imagen personalizada
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando imagen personalizada
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc file push app.tar.gz navegador/root/app.tar.gz' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s3 creado, arrancado y conectado a eth0 con IP 134.3.0.13
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- bash -c "echo 'nameserver 1.1.1.1' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+ERROR:root:Orden desconocida: lxc
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command '['lxc', 'start', 'navegador']' returned non-zero exit status 1.
+INFO:root:Contenedor 'navegador' detenido para crear imagen.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 1.1.1.1' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+ERROR:root:Error al crear balanceador 'lb': Command 'lxc exec lb -- bash -c 'echo "network: {config: disabled}" > /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg'' returned non-zero exit status 1.
+ERROR:root:Error al crear el cliente 'cl': Command 'lxc exec cl -- bash -c 'echo "network: {config: disabled}" > /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg'' returned non-zero exit status 1.
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 100.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 1.1.1.1' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+ERROR:root:Error al crear balanceador 'lb': Command 'lxc exec lb -- bash -c 'echo "network: {config: disabled}" > /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg'' returned non-zero exit status 1.
+ERROR:root:Error al crear el cliente 'cl': Command 'lxc exec cl -- bash -c 'echo "network: {config: disabled}" > /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg'' returned non-zero exit status 1.
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 100.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+ERROR:root:Error al arrancar contenedores: Command '['lxc', 'start', 'cl']' returned non-zero exit status 1.
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- apt install -y mongodb' returned non-zero exit status 100.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'config', 'set', 'core.https_address', '134.3.0.10:8443']' returned non-zero exit status 1.
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+ERROR:root:Error al borrar contenedores: Command '['lxc', 'delete', 's1', '--force']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+ERROR:root:Error eliminando bridge lxdbr1: Command '['lxc', 'network', 'delete', 'lxdbr1']' returned non-zero exit status 1.
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Servidor s2 creado, arrancado y conectado a eth0 con IP 134.3.0.12
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- apt install -y mongodb' returned non-zero exit status 100.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- apt install -y mongodb' returned non-zero exit status 100.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l182.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:== Configurando bridge remoto ==
+INFO:root:== Creando contenedor remoto con MongoDB ==
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'exec', 'remoto:db', '--', 'apt', 'install', '-y', 'mongodb']' returned non-zero exit status 100.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+ERROR:root:Error al borrar contenedores: Command '['lxc', 'delete', 's1', '--force']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+ERROR:root:Error eliminando bridge lxdbr1: Command '['lxc', 'network', 'delete', 'lxdbr1']' returned non-zero exit status 1.
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- apt install -y mongodb' returned non-zero exit status 100.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l182.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'remote', 'add', 'remoto', '127.0.1.1:8443', '--password', 'mypassword', '--accept-certificate']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+ERROR:root:Error al borrar contenedores: Command '['lxc', 'delete', 's2', '--force']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+ERROR:root:Error eliminando bridge lxdbr1: Command '['lxc', 'network', 'delete', 'lxdbr1']' returned non-zero exit status 1.
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', '/dev/null', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'exec', 'lb', '--', 'bash', '-c', 'echo "frontend firstbalance\n    bind *:80\n    option forwardfor\n    default_backend webservers\n\nbackend webservers\n    balance roundrobin\n    server webserver1 134.3.0.11:8001\n    server webserver2 134.3.0.12:8001\n    option httpchk\n" > /etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- apt install -y mongodb' returned non-zero exit status 100.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l017.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'exec', 'remoto:db', '--', 'bash', '-c', "echo 'nameserver 8.8.8.8' > /etc/resolv.conf"]' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+ERROR:root:Orden desconocida: lis
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- apt install -y mongodb' returned non-zero exit status 100.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l166.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'remote', 'add', 'remoto', '127.0.1.1:8443', '--password', 'mypassword', '--accept-certificate']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+ERROR:root:Error al eliminar el contenedor remoto db: Command '['lxc', 'delete', 'remoto:db', '--force']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- bash -c "sed -i 's/bind_ip = .*/bind_ip = 127.0.0.1,134.3.0.20/' /etc/mongodb.conf" ' returned non-zero exit status 2.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l166.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'exec', 'remoto:db', '--', 'tee', '/etc/resolv.conf']' returned non-zero exit status 1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command '['lxc', 'exec', 'lb', '--', 'apt', 'update']' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- bash -c "sed -i 's/bind_ip = .*/bind_ip = 127.0.0.1,134.3.0.20/' /etc/mongodb.conf" ' returned non-zero exit status 2.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l166.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'exec', 'remoto:db', '--', 'tee', '/etc/resolv.conf']' returned non-zero exit status 1.
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+ERROR:root:Error desplegando la aplicación web en s1: Command '['lxc', 'exec', 's1', '--', 'bash', '-c', 'cd /root/app && npm install']' returned non-zero exit status 127.
+INFO:root:Desplegando app web en contenedor s2...
+ERROR:root:Error desplegando la aplicación web en s2: Command '['lxc', 'exec', 's2', '--', 'bash', '-c', 'cd /root/app && npm install']' returned non-zero exit status 127.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s3 creado, arrancado y conectado a eth0 con IP 134.3.0.13
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- bash -c "sed -i 's/bind_ip = .*/bind_ip = 127.0.0.1,134.3.0.20/' /etc/mongodb.conf" ' returned non-zero exit status 2.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l166.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+ERROR:root:Error desplegando la aplicación web en s1: Command '['lxc', 'exec', 's1', '--', 'bash', '-c', 'cd /root/app && npm install']' returned non-zero exit status 127.
+INFO:root:Desplegando app web en contenedor s2...
+ERROR:root:Error desplegando la aplicación web en s2: Command '['lxc', 'exec', 's2', '--', 'bash', '-c', 'cd /root/app && npm install']' returned non-zero exit status 127.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- npm install -C /root/app' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l179.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+ERROR:root:Error desplegando la aplicación web en s1: Command '['lxc', 'exec', 's1', '--', 'bash', '-c', 'cd /root/app && forever start rest_server.js']' returned non-zero exit status 127.
+INFO:root:Desplegando app web en contenedor s2...
+ERROR:root:Error desplegando la aplicación web en s2: Command '['lxc', 'exec', 's2', '--', 'bash', '-c', 'cd /root/app && forever start rest_server.js']' returned non-zero exit status 127.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s3 creado, arrancado y conectado a eth0 con IP 134.3.0.13
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- npm install -C /root/app' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l179.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 1 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+ERROR:root:Error al eliminar el contenedor remoto db: Command '['lxc', 'delete', 'remoto:db', '--force']' returned non-zero exit status 1.
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- npm install -C /root/app' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+INFO:root:Generando archivo haproxy.cfg...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'file', 'push', 'haproxy.cfg', 'lb/etc/haproxy/haproxy.cfg']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- bash -c "sed -i 's/bind_ip = .*/bind_ip = 127.0.0.1,134.3.0.20/' /etc/mongodb.conf" ' returned non-zero exit status 2.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l024.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 1 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- npm install -C /root/app' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l024.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 1 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Listando contenedores con 'lxc init'
+ERROR:root:Orden desconocida: listlxc
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- npm install -C /root/app' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+INFO:root:Arrancando servidores temporalmente para configurar HAProxy...
+ERROR:root:Error configurando HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Parando los servidores tras la configuración...
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+ERROR:root:Error al eliminar el contenedor remoto db: Command '['lxc', 'delete', 'remoto:db', '--force']' returned non-zero exit status 1.
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 100.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- npm install -C /root/app' returned non-zero exit status 1.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+ERROR:root:Error al crear s1: Command '['lxc', 'init', 'imagenpers', 's1']' returned non-zero exit status 1.
+ERROR:root:Error al crear s2: Command '['lxc', 'init', 'imagenpers', 's2']' returned non-zero exit status 1.
+INFO:root:Creando el balanceador 'lb'
+ERROR:root:Error al crear balanceador 'lb': Command '['lxc', 'init', 'ubuntu2004', 'lb']' returned non-zero exit status 1.
+ERROR:root:Error al crear el cliente 'cl': Command '['lxc', 'init', 'ubuntu2004', 'cl']' returned non-zero exit status 1.
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+ERROR:root:Error configurando MongoDB: Command 'lxc exec mdbase -- bash -c "sed -i 's/bind_ip = .*/bind_ip = 127.0.0.1,134.3.0.20/' /etc/mongodb.conf" ' returned non-zero exit status 2.
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l024.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+ERROR:root:Error desplegando la aplicación web en s1: Command '['lxc', 'exec', 's1', '--', 'bash', '-c', 'cd /root/app && npm install']' returned non-zero exit status 127.
+INFO:root:Desplegando app web en contenedor s2...
+ERROR:root:Error desplegando la aplicación web en s2: Command '['lxc', 'exec', 's2', '--', 'bash', '-c', 'cd /root/app && npm install']' returned non-zero exit status 127.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- apt install -y nodejs npm' returned non-zero exit status 130.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- bash -c 'cd /root/app && forever start server.js'' returned non-zero exit status 255.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+ERROR:root:Error al crear s1: Command '['lxc', 'init', 'imagenpers', 's1']' returned non-zero exit status 1.
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+ERROR:root:Error al crear el cliente 'cl': Command '['lxc', 'config', 'device', 'set', 'cl', 'eth0', 'ipv4.address', '134.3.1.11']' returned non-zero exit status 1.
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'start', 's1']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+WARNING:root:No se pudo parar s2, puede que ya esté detenido o no exista.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l019.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'init', 'ubuntu2004', 'remoto:db']' returned non-zero exit status 1.
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+ERROR:root:Error desplegando la aplicación web en s1: Command '['lxc', 'exec', 's1', '--', 'bash', '-c', 'cd /root/app && npm install']' returned non-zero exit status 127.
+INFO:root:Desplegando app web en contenedor s2...
+INFO:root:Aplicación web desplegada correctamente en s2.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s3 creado, arrancado y conectado a eth0 con IP 134.3.0.13
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- bash -c 'cd /root/app && forever start server.js'' returned non-zero exit status 255.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+ERROR:root:Error al borrar contenedores: Command '['lxc', 'delete', 's1', '--force']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+ERROR:root:Error eliminando bridge lxdbr1: Command '['lxc', 'network', 'delete', 'lxdbr1']' returned non-zero exit status 1.
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+ERROR:root:Error al eliminar el contenedor remoto db: Command '['lxc', 'delete', 'remoto:db', '--force']' returned non-zero exit status 1.
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+ERROR:root:Error configurando contenedor servidor: Command 'lxc exec navegador -- bash -c 'cd /root/app && forever start server.js'' returned non-zero exit status 255.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+ERROR:root:Error al eliminar el contenedor remoto db: Command '['lxc', 'delete', 'remoto:db', '--force']' returned non-zero exit status 1.
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+INFO:root:Contenedor base servidor personalizado correctamente y app lanzada con forever.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l019.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 1 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Creando contenedor base 'navegador'
+INFO:root:Instalando NodeJS y preparando app en contenedor servidor...
+INFO:root:Contenedor base servidor personalizado correctamente y app lanzada con forever.
+INFO:root:Creando imagen personalizada 'imagenpers' desde 'navegador'
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l014.lab.dit.upm.es → IP: 127.0.1.1
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Desplegando app web en contenedor s2...
+INFO:root:Aplicación web desplegada correctamente en s2.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:El contenedor db no existe en remoto:remoto
+INFO:root:Importando imagen del profesor desde './arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+ERROR:root:Error al crear s1: Command '['lxc', 'init', 'imagenpers', 's1']' returned non-zero exit status 1.
+ERROR:root:Error al crear s2: Command '['lxc', 'init', 'imagenpers', 's2']' returned non-zero exit status 1.
+INFO:root:Creando el balanceador 'lb'
+ERROR:root:Error al crear balanceador 'lb': Command '['lxc', 'init', 'ubuntu2004', 'lb']' returned non-zero exit status 1.
+ERROR:root:Error al crear el cliente 'cl': Command '['lxc', 'init', 'ubuntu2004', 'cl']' returned non-zero exit status 1.
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'start', 's1']' returned non-zero exit status 1.
+WARNING:root:No se pudo parar s1, puede que ya esté detenido o no exista.
+WARNING:root:No se pudo parar s2, puede que ya esté detenido o no exista.
+INFO:root:La imagen 'imagenprof' ya está importada.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+ERROR:root:Error al crear s1: Command '['lxc', 'init', 'imagenpers', 's1']' returned non-zero exit status 1.
+ERROR:root:Error al crear s2: Command '['lxc', 'init', 'imagenpers', 's2']' returned non-zero exit status 1.
+INFO:root:Creando el balanceador 'lb'
+ERROR:root:Error al crear balanceador 'lb': Command '['lxc', 'init', 'ubuntu2004', 'lb']' returned non-zero exit status 1.
+ERROR:root:Error al crear el cliente 'cl': Command '['lxc', 'init', 'ubuntu2004', 'cl']' returned non-zero exit status 1.
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'start', 's1']' returned non-zero exit status 1.
+WARNING:root:No se pudo parar s1, puede que ya esté detenido o no exista.
+WARNING:root:No se pudo parar s2, puede que ya esté detenido o no exista.
+INFO:root:La imagen 'imagenprof' ya está importada.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+ERROR:root:Error al crear balanceador 'lb': Command '['lxc', 'init', 'ubuntu2004', 'lb']' returned non-zero exit status 1.
+ERROR:root:Error al crear el cliente 'cl': Command '['lxc', 'init', 'ubuntu2004', 'cl']' returned non-zero exit status 1.
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Importando imagen base de Ubuntu desde './ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:La imagen 'imagenprof' ya está importada.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'mkdir', '-p', '/etc/haproxy']' returned non-zero exit status 1.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+ERROR:root:Error al crear/arrancar s3: Command '['lxc', 'init', 'imagenpers', 's3']' returned non-zero exit status 1.
+INFO:root:Servidor s3 creado, arrancado y conectado a eth0 con IP 134.3.0.13
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l087.lab.dit.upm.es → IP: 138.4.31.87
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 3 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Desplegando app web en contenedor s2...
+INFO:root:Aplicación web desplegada correctamente en s2.
+INFO:root:Desplegando app web en contenedor s3...
+INFO:root:Aplicación web desplegada correctamente en s3.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 3 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor s3 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Importando imagen base de Ubuntu desde './ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde './arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+WARNING:root:⚠ MongoDB no está accesible desde lb. La app puede fallar al lanzarse.
+INFO:root:Fichero haproxy.cfg subido correctamente al contenedor lb
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'haproxy', '-f', '/etc/haproxy/haproxy.cfg', '-c']' returned non-zero exit status 127.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Servidor s2 creado, arrancado y conectado a eth0 con IP 134.3.0.12
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando y configurando MongoDB en contenedor de base de datos...
+INFO:root:Proxy añadido para exponer MongoDB en 0.0.0.0:27017
+WARNING:root:MongoDB no parece estar escuchando correctamente en 127.0.0.1:27017
+INFO:root:MongoDB instalado y configurado correctamente en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l087.lab.dit.upm.es → IP: 138.4.31.87
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Desplegando app web en contenedor s2...
+INFO:root:Aplicación web desplegada correctamente en s2.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Importando imagen base de Ubuntu desde './ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde './arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Instalando HAProxy en el balanceador 'lb'
+ERROR:root:Error instalando HAProxy en lb: Command 'lxc exec lb -- bash -c "rm -f /etc/resolv.conf && echo 'nameserver 8.8.8.8' > /etc/resolv.conf"' returned non-zero exit status 1.
+WARNING:root:⚠ MongoDB no está accesible desde lb. La app puede fallar al lanzarse.
+INFO:root:Fichero haproxy.cfg subido correctamente al contenedor lb
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'exec', 'lb', '--', 'haproxy', '-f', '/etc/haproxy/haproxy.cfg', '-c']' returned non-zero exit status 127.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Servidor s2 parado correctamente.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 2 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor s2 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:El contenedor db no existe en remoto:remoto
+INFO:root:Importando imagen base de Ubuntu desde './ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde './arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Arrancando contenedor 'lb' para instalar HAProxy...
+INFO:root:Reparando DNS en 'lb'...
+INFO:root:Instalando HAProxy en el balanceador 'lb'...
+INFO:root:HAProxy instalado correctamente en 'lb'.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'start', 'lb']' returned non-zero exit status 1.
+WARNING:root:No se pudo parar s1, puede que ya esté detenido o no exista.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l087.lab.dit.upm.es → IP: 138.4.31.87
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 1 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Importando imagen base de Ubuntu desde './ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde './arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Servidor s2 creado con IP 134.3.0.12
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Arrancando contenedor 'lb' para instalar HAProxy...
+INFO:root:Reparando DNS en 'lb'...
+INFO:root:Instalando HAProxy en el balanceador 'lb'...
+INFO:root:HAProxy instalado correctamente en 'lb'.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'start', 'lb']' returned non-zero exit status 1.
+WARNING:root:No se pudo parar s1, puede que ya esté detenido o no exista.
+WARNING:root:No se pudo parar s2, puede que ya esté detenido o no exista.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor s2 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l087.lab.dit.upm.es → IP: 138.4.31.87
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Desplegando app web en contenedor s2...
+INFO:root:Aplicación web desplegada correctamente en s2.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Importando imagen base de Ubuntu desde '/home/jesus.jimenez/Descargas/ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde '/home/jesus.jimenez/Descargas/arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Arrancando contenedor 'lb' para instalar HAProxy...
+INFO:root:Reparando DNS en 'lb'...
+INFO:root:Instalando HAProxy en el balanceador 'lb'...
+INFO:root:HAProxy instalado correctamente en 'lb'.
+ERROR:root:Error en configuración de HAProxy: Command '['lxc', 'start', 'lb']' returned non-zero exit status 1.
+WARNING:root:No se pudo parar s1, puede que ya esté detenido o no exista.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Servidor s2 creado, arrancado y conectado a eth0 con IP 134.3.0.12
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l114.lab.dit.upm.es → IP: 138.4.31.114
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Desplegando app web en contenedor s2...
+INFO:root:Aplicación web desplegada correctamente en s2.
+INFO:root:Importando imagen base de Ubuntu desde '/home/jesus.jimenez/Descargas/ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde '/home/jesus.jimenez/Descargas/arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Arrancando contenedor 'lb' para instalar HAProxy...
+INFO:root:Reparando DNS en 'lb'...
+INFO:root:Instalando HAProxy en el balanceador 'lb'...
+INFO:root:HAProxy instalado correctamente en 'lb'.
+WARNING:root:MongoDB no está accesible desde lb. La app puede fallar al lanzarse.
+INFO:root:Servidor webserver1 añadido al backend HAProxy.
+INFO:root:Fichero haproxy.cfg subido correctamente al contenedor lb
+INFO:root:HAProxy instalado y configurado correctamente.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l063.lab.dit.upm.es → IP: 138.4.31.63
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+ERROR:root:Error durante el despliegue de la BBDD remota: Command '['lxc', 'config', 'device', 'add', 'remoto:db', 'miproxy', 'proxy', 'listen=tcp:138.4.31.63:27017connect=tcp:127.0.0.1:27017']' returned non-zero exit status 1.
+INFO:root:Desplegando aplicación en 1 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Importando imagen base de Ubuntu desde '/home/jesus.jimenez/Descargas/ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde '/home/jesus.jimenez/Descargas/arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Arrancando contenedor 'lb' para instalar HAProxy...
+INFO:root:Reparando DNS en 'lb'...
+INFO:root:Instalando HAProxy en el balanceador 'lb'...
+INFO:root:HAProxy instalado correctamente en 'lb'.
+WARNING:root:MongoDB no está accesible desde lb. La app puede fallar al lanzarse.
+INFO:root:Servidor webserver1 añadido al backend HAProxy.
+INFO:root:Fichero haproxy.cfg subido correctamente al contenedor lb
+INFO:root:HAProxy instalado y configurado correctamente.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos...
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l063.lab.dit.upm.es → IP: 138.4.31.63
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Desplegando aplicación en 1 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Ejecutando orden 'delete' con 1 servidores.
+INFO:root:Contenedor s1 eliminado
+INFO:root:Contenedor cl eliminado
+INFO:root:Contenedor lb eliminado
+INFO:root:Eliminando bridge br0
+ERROR:root:Error eliminando bridge lxdbr0: Command '['lxc', 'network', 'delete', 'lxdbr0']' returned non-zero exit status 1.
+INFO:root:Eliminando bridge br1
+INFO:root:Bridge lxdbr1 eliminado correctamente
+INFO:root:Borrando contenedor con el que se inicializa la imagen ubuntu2004
+INFO:root:Borrando contenedor con el que se inicializa la imagen mdbase
+INFO:root:Contenedor remoto db eliminado correctamente de remoto
+INFO:root:Importando imagen base de Ubuntu desde '/home/jesus.jimenez/Descargas/ubuntu2004.tar.gz' con alias 'ubuntu2004'...
+INFO:root:Imagen base 'ubuntu2004' importada correctamente.
+INFO:root:Importando imagen del profesor desde '/home/jesus.jimenez/Descargas/arso25-p2.tar.gz' con alias 'imagenprof'...
+INFO:root:Imagen del profesor importada con éxito con alias 'imagenprof'.
+INFO:root:Creando y configurando el bridge br0
+INFO:root:Creando y configurando el bridge br1
+INFO:root:Servidor s1 creado con IP 134.3.0.11
+INFO:root:Creando el balanceador 'lb'
+INFO:root:Configuración de red aplicada en el contenedor lb.
+INFO:root:Balanceador 'lb' creado correctamente (pendiente arrancar)
+INFO:root:Configuración de red aplicada en el contenedor cl.
+INFO:root:Cliente 'cl' creado y configurado correctamente en eth1 con IP 134.3.1.11
+INFO:root:Arrancando contenedor 'lb' para instalar HAProxy...
+INFO:root:Reparando DNS en 'lb'...
+INFO:root:Instalando HAProxy en el balanceador 'lb'...
+INFO:root:HAProxy instalado correctamente en 'lb'.
+WARNING:root:MongoDB no está accesible desde lb. La app puede fallar al lanzarse.
+INFO:root:Servidor webserver1 añadido al backend HAProxy.
+INFO:root:Fichero haproxy.cfg subido correctamente al contenedor lb
+INFO:root:HAProxy instalado y configurado correctamente.
+INFO:root:Servidor s1 parado correctamente.
+INFO:root:Contenedor 'lb' parado correctamente.
+INFO:root:Ejecutando orden 'start'
+INFO:root:Contenedor s1 arrancado
+INFO:root:Contenedor cl arrancado
+INFO:root:Contenedor lb arrancado
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Servidor s2 creado, arrancado y conectado a eth0 con IP 134.3.0.12
+INFO:root:Listando contenedores con 'lxc init'
+INFO:root:Creando contenedor base 'mdbase'
+INFO:root:Instalando MongoDB en contenedor de base de datos…
+INFO:root:MongoDB instalado y configurado en mdbase
+INFO:root:Creando imagen de MongoDB 'imagenmdb' desde 'mdbase'
+INFO:root:Nombre remoto detectado: l063.lab.dit.upm.es → IP: 138.4.31.63
+INFO:root:Configurando acceso remoto a LXD en ambos equipos
+INFO:root:Configurando bridge remoto
+INFO:root:Creando contenedor remoto con MongoDB
+INFO:root:Configurando proxy para acceso a MongoDB
+INFO:root:Base de datos remota desplegada correctamente
+INFO:root:Nombre remoto detectado: l063.lab.dit.upm.es → IP: 138.4.31.63
+INFO:root:Desplegando aplicación en 2 servidores...
+INFO:root:Desplegando app web en contenedor s1...
+INFO:root:Aplicación web desplegada correctamente en s1.
+INFO:root:Desplegando app web en contenedor s2...
+INFO:root:Aplicación web desplegada correctamente en s2.
