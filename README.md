@@ -1,29 +1,29 @@
-# Práctica Gestión Hospitalaria - Servidor Web Replicado
+# Hospital Management Practice - Replicated Web Server
 
-## Descripción funcional
+## Functional Description
 
-Este proyecto implementa una aplicación de gestión hospitalaria que permite administrar pacientes a través de una interfaz web accesible desde diferentes dispositivos. La aplicación está replicada en varios servidores para asegurar tolerancia a fallos y escalabilidad.
+This project implements a hospital management application that allows for patient administration through a web interface accessible from different devices. The application is replicated across several servers to ensure fault tolerance and scalability.
 
-El sistema incluye:
+The system includes:
 
-- Varios servidores Node.js que proporcionan el servicio web.
-- Un balanceador de carga que distribuye las peticiones de forma transparente entre los servidores disponibles.
-- Un servidor de base de datos MongoDB para almacenar la información persistente de los pacientes.
-- Despliegue y configuración de los componentes en contenedores LXD, incluyendo la base de datos que puede estar alojada en un contenedor remoto para mayor flexibilidad.
+- Several Node.js servers that provide the web service.
+- A load balancer that transparently distributes requests among the available servers.
+- A MongoDB database server to store persistent patient information.
+- Deployment and configuration of the components in LXD containers, including the database, which can be hosted in a remote container for greater flexibility.
 
-Además, la aplicación permite:
+Additionally, the application allows for:
 
-- La gestión dinámica de servidores para adaptar la capacidad del sistema a la demanda.
-- Acceso remoto a la base de datos mediante configuración específica del contenedor y proxy.
+- Dynamic server management to adapt the system's capacity to demand.
+- Remote access to the database using specific container configuration and proxy.
 
-## Explicación técnica
+## Technical Explanation
 
-El proyecto está desarrollado en Python con un script principal `pfinal2.py` que automatiza la creación, configuración y gestión de los contenedores necesarios (servidores web, base de datos y balanceador).
+The project is developed in Python with a main script `pfinal2.py` that automates the creation, configuration, and management of the necessary containers (web servers, database, and load balancer).
 
-Se ha configurado un balanceador de carga que distribuye las peticiones HTTP entrantes entre los servidores Node.js usando un algoritmo de reparto de carga, garantizando la transparencia al usuario.
+A load balancer has been configured to distribute incoming HTTP requests among the Node.js servers using a load-sharing algorithm, guaranteeing transparency to the user.
 
-La base de datos MongoDB se ejecuta en un contenedor LXD, que puede estar en el mismo equipo o en una máquina remota. Para el despliegue remoto, se ha configurado el acceso seguro a través de LXD con certificados y un proxy para redirigir las conexiones.
+The MongoDB database runs in an LXD container, which can be on the same equipment or a remote machine. For remote deployment, secure access has been configured through LXD with certificates and a proxy to redirect connections.
 
-Los servidores web interactúan con la base de datos para gestionar la información de pacientes, asegurando la persistencia y consistencia de los datos.
+The web servers interact with the database to manage patient information, ensuring data persistence and consistency.
 
-Se ha seguido la estructura modular recomendada para facilitar el mantenimiento y extensión del código.
+The recommended modular structure has been followed to facilitate code maintenance and extension.
