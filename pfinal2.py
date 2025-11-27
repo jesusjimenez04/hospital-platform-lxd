@@ -1,7 +1,4 @@
 #Fichero principal que hace llamadas a todos los anteriores
-#Jesús Jiménez Serrano
-#Yago Gil Iglesias
-
 import logging
 from modulos import gestion_lxc, gestion_balanceador, gestion_red, gestion_imagen, gestion_individual, gestion_bbdd
 from modulos.logger_config import log_info, log_error, validar_numero_servidores
