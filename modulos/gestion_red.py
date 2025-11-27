@@ -1,7 +1,5 @@
 #Segunda parte del esquema: configuración de componentes, conectarlos
 #Configuración de redes y bridges virtuales
-#Jesús Jiménez Serrano
-#Yago Gil Iglesias
 import logging
 from modulos.logger_config import log_info, log_error 
 import subprocess
