@@ -1,7 +1,5 @@
 # Primera parte del esquema: creación de componentes
 # Fichero para hacer operaciones sobre los contenedores: crear, borrar, listar...
-#Jesús Jiménez Serrano
-#Yago Gil Iglesias
 import logging
 from modulos.logger_config import log_info, log_error
 from modulos import gestion_bbdd
