@@ -1,5 +1,3 @@
-#Jesús Jiménez Serrano
-#Yago Gil Iglesias
 #Código para generar la imagen sobre la que se inicializarán los servidores
 #La idea es:
 #  1) Crear un contenedor base a partir de la imagen ubuntu2004
