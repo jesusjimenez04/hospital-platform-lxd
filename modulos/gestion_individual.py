@@ -1,6 +1,4 @@
-# Ficheroopcional: operaciones sobre contenedores individuales
-#Jesús Jiménez Serrano
-#Yago Gil Iglesias
+# Operaciones sobre contenedores individuales
 import logging
 from modulos.logger_config import log_info, log_error
 from modulos import gestion_lxc
